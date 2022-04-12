@@ -1,8 +1,9 @@
 body {
-    color: rgb(156, 156, 156);
+    color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
     background-image: linear-gradient(to bottom right, black, rgb(39, 0, 65));
+    overflow-x: hidden;
 }
 
 .top {
@@ -10,11 +11,17 @@ body {
     font-size: 0.8em;
     padding: 20px 0 0 0 ;
     margin: 0px;
+    letter-spacing: 2px;
+    color:rgb(188, 116, 255);
 }
 
 .navbar {
     padding: 0px;
     margin: 0px;
+}
+
+h1, h2, h3 {
+    color:rgb(188, 116, 255);
 }
 
 main div {
@@ -33,7 +40,7 @@ main div {
     transition: all 250ms ease-in-out;
 }
 .feature-image:hover {
-    transform: rotate(5deg);
+    transform: rotate(2deg);
     filter: brightness(100%);
 }
 
@@ -53,4 +60,17 @@ a {
 a:hover {
     color: rgb(132, 0, 255);
     letter-spacing: 2px;
+}
+footer {
+    font-size: 0.8em;
+}
+
+.featurette-links {
+    list-style: none;
+    text-align: center;
+    padding-top: 40px;
+}
+.featurette-links li {
+    display: inline;
+    margin: 0 10px 0 10px;
 }
