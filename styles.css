@@ -36,26 +36,21 @@ main div {
 .feature-image {
     border-radius: 20px;
     max-width: 100%;
-    filter: brightness(70%);
     transition: all 250ms ease-in-out;
 }
 .feature-image:hover {
-    transform: rotate(2deg);
-    filter: brightness(100%);
+    transform: rotate(0deg);
 }
 
 .featurette {
-    filter: brightness(70%);
-    transition: all 250ms ease-in-out;
-}
-.featurette:hover {
-    filter: brightness(100%);
+    color: rgb(200, 200, 200);
+    transition: all 300ms ease-in-out;
 }
 
 a {
     color: rgb(231, 205, 255);
     text-decoration: none;
-    transition: all 300ms ease-in-out;
+    transition: all 20ms ease-in-out;
 }
 a:hover {
     color: rgb(132, 0, 255);
@@ -73,4 +68,15 @@ footer {
 .featurette-links li {
     display: inline;
     margin: 0 10px 0 10px;
+}
+
+.featurette:hover {
+    background-color: rgba(200,200,200, 0.1);
+    color: rgb(255, 255, 255);
+}
+.featurette:hover img {
+    transform: rotate(2deg);
+}
+h1 {
+    color:#e497b1
 }
