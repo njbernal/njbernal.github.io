@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            width: 100vw;
+            height: 100vh;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+            'project1 project1 project2'
+            'project3 project4 project4';
+        }
+        .area {
+            min-height: 200px;
+        }
+        .project1 {
+            grid-area: project1;
+        }
+        .project2 {
+            grid-area: project2;
+        }
+        .project3 {
+            grid-area: project3;
+        }
+        .project4 {
+            grid-area: project4;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="area project1">
+            test
+        </div>
+        <div class="area project2">
+            test2
+        </div>
+        <div class="area project3">
+            three
+        </div>
+        <div class="area project4">
+            four
+        </div>
+    </div>
+</body>
+</html>
