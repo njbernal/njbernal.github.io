@@ -23,12 +23,11 @@ body {
 }
 
 .top {
-    text-align: center;
+    text-align: left;
     font-size: 0.9em;
     padding: 20px 0 0 0 ;
-    margin: 0px;
-    letter-spacing: 2px;
-    color: var(--pinkText)
+    margin: 0 0 0 20px;
+    color: var(--orangeBG)
 }
 
 
@@ -185,14 +184,16 @@ h3 {
 
 nav a {
     font-size: 1.3em;
-    color: var(--orangeBG) !important;
-    transition: all 300ms ease;
+    color: var(--orange) !important;
+    transition: all 350ms ease;
+    letter-spacing: 2px;;
 }
 nav a:hover {
-    letter-spacing: 2px;
     color: var(--purpleText) !important;
 }
 nav .active {
-    letter-spacing: 2px;
-    color: var(--purpleText) !important;
+    color: rgba(250,200,200) !important;
+}
+.nav-item {
+    text-align: center;
 }
