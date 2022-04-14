@@ -30,7 +30,6 @@ body {
     color: var(--orangeBG)
 }
 
-
 .navbar {
     padding: 0px;
     margin: 0px;
@@ -40,11 +39,13 @@ main div {
     padding: 20px;
 
 }
+#bioPhoto {
+    pointer-events: none;
+}
 
 .feature-image {
     border-radius: 20px;
-    transition: all 250ms ease-in-out;
-    
+    transition: all 250ms ease-in-out;  
 }
 
 .featurette {
