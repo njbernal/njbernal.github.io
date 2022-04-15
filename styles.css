@@ -1,6 +1,7 @@
 :root {
     --purple: rgb(132, 0, 255);
     --pinkText: rgb(231, 205, 255);
+    --pinkTextDarker: rgb(196, 160, 229);
     --purpleBG: rgb(63, 44, 82);
     --purpleText: rgb(177, 128, 223);
     --orange: #e89a3e;
@@ -120,6 +121,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    clear: both;
 }
 .info-contact div {
     min-width: 25%;
@@ -206,6 +208,24 @@ nav .active {
 }
 .nav-item {
     text-align: center;
+}
+.nopadding {
+    font-size: 0.9em;
+    margin: 0px;
+    padding: 0px;
+}
+.bio a {
+    color: var(--orange);
+    text-decoration: underline;
+}
+.bio a:hover {
+    color: var(--purple);
+}
+.bio-highlight {
+    color: var(--orange);
+}
+.bio-bold {
+    color: var(--pinkText);
 }
 
 @media screen and (max-device-width : 1024px) {
