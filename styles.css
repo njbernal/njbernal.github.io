@@ -41,6 +41,10 @@ main div {
     padding: 20px;
 
 }
+.info-photo {
+
+}
+
 #bioPhoto {
     pointer-events: none;
 }
@@ -71,11 +75,6 @@ main div {
 }
 .feature-image-holder {
     text-align: center;
-}
-@media screen and (max-device-width : 1024px) {
-    .feature-image-holder {
-        order: 2;
-    }
 }
 
 a {
@@ -192,15 +191,6 @@ h3 {
     letter-spacing: 2px;
     font-size: 0.7em;
 }
-@media screen and (max-device-width : 1024px) {
-    .footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 0.7em;
-    }
-}
 
 nav a {
     font-size: 1.3em;
@@ -216,4 +206,29 @@ nav .active {
 }
 .nav-item {
     text-align: center;
+}
+
+@media screen and (max-device-width : 1024px) {
+    .feature-image-holder {
+        order: 2;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7em;
+    }
+    .info-container {
+        padding: 0px;
+        width: 100%;
+        font-size: 0.9em;
+    }
+    .main-photo {
+        clip-path: circle(40%);
+        max-width: 200px;
+        float: left;
+        margin-left: -40px;
+        shape-outside: circle(50%);
+    }
 }
