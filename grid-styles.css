@@ -61,6 +61,7 @@
     visibility: hidden;
     opacity: 0;
     transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
 }
 h3 {
     margin: 0 0 15px 0;
@@ -69,6 +70,7 @@ h3 {
 
 .area {
     transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
 }
 .area:hover .project-detail, .area:active .project-detail {
     visibility: visible;
@@ -86,9 +88,5 @@ h3 {
         'project3'
         'project4'
         'project5'
-    }
-    .area:active .project-detail {
-        visibility: visible;
-        opacity: 100;
     }
 }

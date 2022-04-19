@@ -51,6 +51,7 @@ main div {
     min-width: 250px;
     border-radius: 20px;
     transition: all 250ms ease-in-out;  
+    -webkit-transition: all 350ms ease;
 }
 
 .featurette {
@@ -60,6 +61,7 @@ main div {
     font-size: 1em;
     color: rgb(200, 200, 200);
     transition: all 300ms ease-in-out;
+    -webkit-transition: all 350ms ease;
 }
 
 .featurette p {
@@ -78,6 +80,7 @@ a {
     color: var(--pinkText);
     text-decoration: none;
     transition: all 20ms ease-in-out;
+    -webkit-transition: all 350ms ease;
 }
 a:hover {
     color: var(--purple);
@@ -126,6 +129,7 @@ footer {
     border-radius: 10px;
     background-color: var(--orange);
     transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
 }
 .info-contact div a {
     color: black;
@@ -194,6 +198,7 @@ nav a {
     font-size: 1.3em;
     color: var(--orange) !important;
     transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
     letter-spacing: 2px;;
 }
 nav a:hover {
