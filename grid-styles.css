@@ -1,0 +1,70 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+    grid-template-areas:
+    'project1 project1 project2'
+    'project3 project4 project4'
+    'project5 project5 project5';
+}
+.area {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project1 {
+    grid-area: project1;
+    background-image: url('./images/wide-pacmen.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project2 {
+    grid-area: project2;
+    background-image: url('./images/Animation.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project3 {
+    grid-area: project3;
+    background-image: url('./images/wide-buses.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project4 {
+    grid-area: project4;
+    background-image: url('./images/wide-bot.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project5 {
+    grid-area: project5;
+    background-image: url('./images/wide-minesweeper.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project-detail {
+    background-color: rgba(255, 0, 200, 0.3);
+    backdrop-filter: blur(5px) saturate(80%) contrast(50%) brightness(80%);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 0.9em;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+    opacity: 0;
+    transition: all 350ms ease;
+}
+h3 {
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+.area:hover .project-detail, .area:active .project-detail {
+    opacity: 100;
+}

@@ -8,7 +8,6 @@
     --orangeLighter: #e89a3e;
     --orangeBG: #e89a3ea0;
 }
-
 body {
     height: 100%;
     width: 100%;
@@ -40,9 +39,6 @@ body {
 
 main div {
     padding: 20px;
-
-}
-.info-photo {
 
 }
 
