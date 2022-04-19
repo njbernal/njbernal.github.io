@@ -68,3 +68,17 @@ h3 {
 .area:hover .project-detail, .area:active .project-detail {
     opacity: 100;
 }
+
+@media screen and (max-device-width : 1024px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+        grid-template-areas:
+        'project1'
+        'project2'
+        'project3'
+        'project4'
+        'project5'
+    }
+}
