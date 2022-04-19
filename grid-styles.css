@@ -57,7 +57,7 @@
     width: 100%;
     padding: 20px;
     margin: 0px;
-    opacity: 0;
+    visibility: hidden;
     transition: all 350ms ease;
 }
 h3 {
@@ -66,7 +66,7 @@ h3 {
 }
 
 .area:hover .project-detail, .area:active .project-detail {
-    opacity: 100;
+    visibility: visible;
 }
 
 @media screen and (max-device-width : 1024px) {
