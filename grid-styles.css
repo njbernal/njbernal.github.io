@@ -86,6 +86,9 @@ h3 {
         'project4'
         'project5'
     }
+    ..project-detail {
+        background-color: rgba(255, 0, 200, 0.6);
+    }
     .area:active .project-detail {
         visibility: visible;
         opacity: 100;
