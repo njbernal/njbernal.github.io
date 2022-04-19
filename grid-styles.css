@@ -65,6 +65,9 @@ h3 {
     padding: 0;
 }
 
+.area {
+    transition: all 350ms ease;
+}
 .area:hover .project-detail, .area:active .project-detail {
     visibility: visible;
 }
